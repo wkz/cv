@@ -1,95 +1,106 @@
 body {
-	background: url("bg.png");
-	color: #989898;
+    font-family: Roboto Slab, Serif;
+    margin: 0;
+    background: #fafafa;
+    color: #757575;
 }
 
-.container {
-	background: rgba(43, 43, 43, 0.5);
-	padding:	40px;
-}
-
-footer {
-	background-color: #2b2b2b;
-}
-
-.page-header {
-	border-color: #dc322f;
-}
-
-a, .phone {
-	color: #cb4b16;
-}
-
-a:hover {
-	color: #dc322f;
+a {
+    color: #673ab7;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #b58900;
+    margin: 0;
+    font-family: Roboto, Sans-Serif;
 }
 
-h1 {
-	font-weight: 100;
+section {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
 }
 
-h4 {
-	font-weight: 200;
+.center {
+    margin: 20px auto;
+    width: 960px;
+    overflow: hidden;
 }
 
-.justify {
-  text-align: justify;
+.header {
+    background: #673ab7;
+    color: #fafafa;
+}
+
+.intro {
+    background: #eeeeee;
+    color: #757575;
+}
+
+.contact, .summary {
+    display: inline-block;
+    width: 50%;
+}
+
+.summary {
+    float: right;
+}
+
+.lead {
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.pdesc, .pprops {
+    display: inline-block;
+}
+
+.pdesc {
+    width: 80%;
+    text-align: justify;
+}
+
+.pprops {
+    width: 15%;    
+    float: right;
+
+    margin-top: 16px;
+}
+
+.pprops p {
+    margin: 0 0 4px 0;
 }
 
 .label {
-    background-color: #cb4b16;	
+    font-size: 10pt;
+    font-family: Roboto, Sans-Serif;
+    text-transform: uppercase;
+    background-color: #eeeeee;
+    padding: 1px;
 }
 
+table {
+    margin: 16px 0;
+}
 
-.base03 {
-    color: #002b36;	
+td {
+    padding: 0 10px 0 0;
 }
-.base02 {
-    color: #073642;	
+
+h1 {
+    font-weight: 100;
+    font-size: 36pt;
 }
-.base01 {
-    color: #586e75;	
+
+h1 > small {
+    font-style: italic;
 }
-.base00 {
-    color: #657b83;	
+
+h4 {
+    font-weight: 300;
+    font-size: 16pt;
 }
-.base0 {
-    color: #839496;	
-}
-.base1 {
-    color: #93a1a1;	
-}
-.base2 {
-    color: #eee8d5;	
-}
-.base3 {
-    color: #fdf6e3;	
-}
-.yellow {
-    color: #b58900;	
-}
-.orange {
-    color: #cb4b16;	
-}
-.red {
-    color: #dc322f;	
-}
-.magenta {
-    color: #d33682;	
-}
-.violet {
-    color: #6c71c4;	
-}
-.blue {
-    color: #268bd2;	
-}
-.cyan {
-    color: #2aa198;	
-}
-.green {
-    color: #859900;	
+
+h5 {
+    text-transform: uppercase;
 }
