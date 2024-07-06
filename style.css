@@ -1,8 +1,12 @@
 body {
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust:exact !important;
+
     font-family: Roboto Slab, Serif;
     margin: 0;
     background: #fafafa;
     color: #757575;
+    text-align: justify;
 }
 
 a {
@@ -15,19 +19,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Roboto, Sans-Serif;
 }
 
-section {
+.content {
     width: 100%;
-    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
     overflow: hidden;
 }
 
 .center {
-    margin: 20px auto;
-    width: 960px;
+    margin: auto;
+    width: 880px;
     overflow: hidden;
 }
 
 .header {
+    padding: 20px 0px;
     background: #673ab7;
     color: #fafafa;
 }
@@ -37,9 +42,8 @@ section {
     color: #757575;
 }
 
-.contact, .summary {
-    display: inline-block;
-    width: 50%;
+.article {
+    margin: 20px auto;
 }
 
 .summary {
@@ -48,27 +52,6 @@ section {
 
 .lead {
     font-size: 14pt;
-    text-align: justify;
-}
-
-.pdesc, .pprops {
-    display: inline-block;
-}
-
-.pdesc {
-    width: 80%;
-    text-align: justify;
-}
-
-.pprops {
-    width: 15%;    
-    float: right;
-
-    margin-top: 16px;
-}
-
-.pprops p {
-    margin: 0 0 4px 0;
 }
 
 .label {
@@ -79,20 +62,12 @@ section {
     padding: 1px;
 }
 
-table {
-    margin: 16px 0;
-}
-
-td {
-    padding: 0 10px 0 0;
-}
-
 h1 {
     font-weight: 100;
     font-size: 36pt;
 }
 
-h1 > small {
+h2 > small {
     font-style: italic;
 }
 
@@ -103,4 +78,11 @@ h4 {
 
 h5 {
     text-transform: uppercase;
+}
+
+svg {
+    fill: #858585;
+    height: 24px;
+    display: inline;
+    vertical-align: middle;
 }
